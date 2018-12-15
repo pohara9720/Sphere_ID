@@ -14,7 +14,7 @@ export default class Design extends Component{
     constructor(props){
         super(props)
         this.state ={
-            slider:'3',
+            slider:'2',
             active:'USD',
             rate:1,
             frequency:'center'
