@@ -1,0 +1,93 @@
+.container{
+	max-width: 33%;
+	width: 100%;
+	margin:30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.card{
+	background-color: white;
+	box-sizing: border-box;
+	padding: 20px 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	cursor:pointer;
+	max-height: 300px;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	box-shadow:0 1px 9px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+.bubble{
+	height: 135px;
+	width: 135px;
+	background-color:blue;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	border-radius: 50%;
+	color:white;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: .4px;
+}
+.bubble{
+	margin-top: -40px;
+}
+
+.card h2{
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+}
+
+.card h4{
+	padding-bottom: 10px;
+	font-weight: 200;
+}
+
+.cross{
+	text-decoration: line-through;
+}
+
+.cross:before,.card span:before{
+	content:'$';
+	vertical-align: text-top;
+}
+
+.free:before,.free:after{
+	display: none;
+}
+
+.free{
+	padding-bottom: 50px;
+}
+
+.card span:after{
+	content:'*';
+	vertical-align: text-top;
+	font-size: 20px;
+}
+
+.cross:before{
+	font-size: 10px;
+}
+
+.card span:before{
+	font-size: 20px;
+}
+
+.card span{
+	font-weight: 200;
+	font-size: 60px;
+}
+
+@media (max-width: 1440px) {
+	  	.container{
+	  		max-width: 100%;
+	  		margin: 5px 5px 50px 5px;
+	  	}
+}

@@ -1,0 +1,111 @@
+html { box-sizing: border-box; padding: 0; }
+*, *:before, *:after { box-sizing: inherit; }
+ol, ul { list-style: none; }
+a { color: inherit; text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6, p, ol, ul,div{
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+    
+}
+button:focus,input:focus{
+  outline: none;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c1{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 8.3333%;
+}
+.c2{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 16.67%;
+}
+.c3{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 25%;
+}
+.c4{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 33.3%;
+}
+.c5{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 41.7%;
+}
+.c6{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 50%;
+}
+.c7{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 58%;
+}
+.c8{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 66%;
+}
+.c9{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 75%;
+}
+.c10{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 83%;
+}
+.c11{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 92%;
+}
+.c12{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+
+
+@media (max-width: 1199px) {
+  .c1,
+  .c2,
+  .c3,
+  .c4,
+  .c5,
+  .c6,
+  .c7,
+  .c8,
+  .c9,
+  .c10,
+  .c11,
+  .c12 {
+    width: 100%;
+  }
+  .row {
+    flex-wrap: wrap;
+  }

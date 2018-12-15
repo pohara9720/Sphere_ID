@@ -1,0 +1,48 @@
+{
+  "name": "sphere_id",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev-server": "yarn run clean && yarn run copy-static && webpack-dev-server",
+    "build-prod": "yarn run clean && yarn run copy-static && webpack -p",
+    "copy-static": "copyfiles -u 2 \"src/static/*\" dist",
+    "clean": "rimraf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pohara9720/Sphere_ID.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pohara9720/Sphere_ID/issues"
+  },
+  "homepage": "https://github.com/pohara9720/Sphere_ID#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "7",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "copyfiles": "^2.1.0",
+    "css-loader": "^2.0.0",
+    "eslint": "^5.10.0",
+    "eslint-plugin-react": "^7.11.1",
+    "rimraf": "^2.6.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-with-styles": "^3.2.1"
+  }
+}
