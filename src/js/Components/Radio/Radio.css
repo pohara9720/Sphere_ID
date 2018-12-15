@@ -1,0 +1,43 @@
+.radio{
+	margin:10px;
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	justify-content: center;
+}
+
+.radio label{
+	margin-left: 10px;
+}
+
+.radioBtn,.active{
+	display: flex;
+	height: 22px;
+	width: 22px;
+	border-radius: 50%;
+	cursor: pointer;
+	justify-content: center;
+	align-items: center;
+}
+
+.radioBtn{
+	background-color: #dcdcdc;
+}
+
+.active{
+	background-color: blue
+}
+
+.radioBtn div,.active div{
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+}
+
+.radioBtn div{
+	display: none;
+}
+
+.active div{
+	background-color: white;
+}
